@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(assets/cow.jpg);
+      background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100vh; 
+}
+header {
+    background-color: rgba(86, 140, 109, 0.644);
+    color: azure;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(4, 6, 5);
+    font-family:'Times New Roman', Times, serif;
+
+}
+header nav a{
+    color:white;
+    text-decoration: solid;
+    font-family: fantasy;
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+    
+}
+.log{
+    color: rgba(17, 17, 17, 0.637);
+    text-decoration:solid;
+    padding: 12px 15px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+header nav a:hover{
+    color: khaki;
+}
+.tab{
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg,rgba(0, 128, 0, 0.21),rgba(86, 115, 120, 0.445))
+    
+    
+}
+.tab h1{
+    font-size: 45px;
+    margin-bottom: 18px;
+    color: #ffd700;
+}
+.tab p{
+    font-size: 17px;
+    margin-bottom: 25px;
+    font-style: initial;
+    color: #4e342e;
+
+}
+.tab .btn{
+    background-color: beige;
+    color: darkslategray;
+    text-decoration:solid;
+    padding: 12px 15px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
